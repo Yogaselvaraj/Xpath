@@ -18,6 +18,8 @@ public class XpathFinder {
 		WebElement search = driver.findElement(By.name("q"));
 		search.sendKeys("home");
 		
+		System.out.println("yoga");
+		
 		
 	}
 
